@@ -1,0 +1,19 @@
+*Polymorphism- A fundamental concept In Object-oriented programming (OOP) that allows objects from different classes To be treated AS objects Of a common base Class.
+
+*It enables you To Write code that can work With different types Of objects In a uniform way.
+*There are two main types Of polymorphism In OOP: compile-time (Or Static) polymorphism And runtime (Or Dynamic) polymorphism.
+
+*It Is typically achieved through method overloading And Operator overloading.
+
+*Method overloading: You can define multiple methods In the same Class With the same Name but different parameter lists. 
+The appropriate method To call Is determined by the method signature at compile time based On the arguments passed.
+
+*The Assignment outlined different principles within creating a console application such As:
+
+1.Create an interface called IQuittable and have it define a void method called Quit().
+
+2.Have your Employee class from the previous drill inherit that interface and implement the Quit() method in any way you choose.
+
+3.Use polymorphism to create an object of type IQuittable and call the Quit() method on it. Hint: an object can be of an interface type if it implements that specific interface.
+
+4.Add comments to each line or block of your code to explain what it does exactly, so that another developer could read and understand your code. 
